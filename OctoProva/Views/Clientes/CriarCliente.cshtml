@@ -1,0 +1,58 @@
+﻿@model OctoProva.Models.Cliente
+
+@{
+    ViewData["Title"] = "CriarCliente";
+}
+
+<h2>CriarCliente</h2>
+
+<h4>Cliente</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CriarCliente">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Nome" class="control-label"></label>
+                <input asp-for="Nome" class="form-control" />
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TelefoneCelular" class="control-label"></label>
+                <input asp-for="TelefoneCelular" class="form-control" />
+                <span asp-validation-for="TelefoneCelular" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TelefoneComercial" class="control-label"></label>
+                <input asp-for="TelefoneComercial" class="form-control" />
+                <span asp-validation-for="TelefoneComercial" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TelefoneResidencial" class="control-label"></label>
+                <input asp-for="TelefoneResidencial" class="form-control" />
+                <span asp-validation-for="TelefoneResidencial" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Endereco1" class="control-label"></label>
+                <input asp-for="Endereco1" class="form-control" />
+                <span asp-validation-for="Endereco1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Endereco2" class="control-label"></label>
+                <input asp-for="Endereco2" class="form-control" />
+                <span asp-validation-for="Endereco2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

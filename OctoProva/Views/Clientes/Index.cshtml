@@ -1,0 +1,64 @@
+﻿@model IEnumerable<OctoProva.Models.Cliente>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Lista de Clientes</h2>
+
+<p>
+    <a asp-action="CriarCliente">Criar um novo Cliente</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TelefoneCelular)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TelefoneComercial)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TelefoneResidencial)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Endereco1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Endereco2)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TelefoneCelular)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TelefoneComercial)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TelefoneResidencial)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Endereco1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Endereco2)
+            </td>
+            <td>
+                <a asp-action="AtualizarCliente" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="ExcluirCliente" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
