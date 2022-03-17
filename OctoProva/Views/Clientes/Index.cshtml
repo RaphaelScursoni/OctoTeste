@@ -22,25 +22,40 @@
                 @Html.DisplayNameFor(model => model.Documento)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.TelefoneCelular)
+                @Html.DisplayNameFor(model => model.TipoTelefone1)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.TelefoneComercial)
+                @Html.DisplayNameFor(model => model.Telefone1)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.TelefoneResidencial)
+                @Html.DisplayNameFor(model => model.TipoTelefone2)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.TipoEndereco1)
+                @Html.DisplayNameFor(model => model.Telefone2)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Endereco1)
+                @Html.DisplayNameFor(model => model.TipoEndereco)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.TipoEndereco2)
+                @Html.DisplayNameFor(model => model.Endereco)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Endereco2)
+                @Html.DisplayNameFor(model => model.CEP)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Numero)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Complemento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bairro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cidade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UF)
             </th>
             <th></th>
         </tr>
@@ -58,25 +73,40 @@
                 @Html.DisplayFor(modelItem => item.Documento)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.TelefoneCelular)
+                @Html.DisplayFor(modelItem => item.TipoTelefone1)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.TelefoneComercial)
+                @Html.DisplayFor(modelItem => item.Telefone1)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.TelefoneResidencial)
+                @Html.DisplayFor(modelItem => item.TipoTelefone2)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.TipoEndereco1)
+                @Html.DisplayFor(modelItem => item.Telefone2)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Endereco1)
+                @Html.DisplayFor(modelItem => item.TipoEndereco)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.TipoEndereco2)
+                @Html.DisplayFor(modelItem => item.Endereco)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Endereco2)
+                @Html.DisplayFor(modelItem => item.CEP)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Numero)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Complemento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Bairro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cidade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UF)
             </td>
             <td>
                 <a asp-action="AtualizarCliente" asp-route-id="@item.Id">Editar</a> |
