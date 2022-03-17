@@ -9,8 +9,8 @@ using OctoProva.Models;
 namespace OctoProva.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20220317130500_ResetDB")]
-    partial class ResetDB
+    [Migration("20220317223918_AttModelValidation")]
+    partial class AttModelValidation
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -43,15 +43,17 @@ namespace OctoProva.Migrations
 
                     b.Property<string>("Documento")
                         .IsRequired()
-                        .HasMaxLength(14);
+                        .HasMaxLength(18);
+
+                    b.Property<string>("Email");
 
                     b.Property<string>("Endereco")
                         .IsRequired()
-                        .HasMaxLength(100);
+                        .HasMaxLength(50);
 
                     b.Property<string>("Nome")
                         .IsRequired()
-                        .HasMaxLength(100);
+                        .HasMaxLength(70);
 
                     b.Property<string>("Numero")
                         .IsRequired()
@@ -59,10 +61,10 @@ namespace OctoProva.Migrations
 
                     b.Property<string>("Telefone1")
                         .IsRequired()
-                        .HasMaxLength(12);
+                        .HasMaxLength(15);
 
                     b.Property<string>("Telefone2")
-                        .HasMaxLength(12);
+                        .HasMaxLength(15);
 
                     b.Property<string>("TipoCliente")
                         .IsRequired()

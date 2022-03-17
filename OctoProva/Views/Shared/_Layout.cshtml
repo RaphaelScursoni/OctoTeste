@@ -29,10 +29,11 @@
                 <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">OctoProva</a>
             </div>
             <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+                <ul class="nav navbar-nav" id="MenuHorizontal">
+                    <li><a asp-area="" asp-controller="Clientes" asp-action="Index">Lista</a></li>
+                    <li><a asp-area="" asp-controller="Clientes" asp-action="CriarCliente">Criar</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="About">Sobre</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contato</a></li>
                 </ul>
             </div>
         </div>
@@ -44,7 +45,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; 2022 - OctoProva</p>
+            <p>&copy; 2022 - OCTO Tecnologia - Prova</p>
         </footer>
     </div>
 
@@ -69,6 +70,12 @@
         <script src="~/js/site.min.js" asp-append-version="true"></script>
     </environment>
 
+    <script src="~/js/jQuery-Mask-Plugin-master/src/jquery.mask.js"></script>
+    @{
+    await Html.RenderPartialAsync("_ValidationScriptsPartial");
+}
+}
     @RenderSection("Scripts", required: false)
+
 </body>
 </html>

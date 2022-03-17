@@ -29,8 +29,6 @@ namespace OctoProva.Controllers
         [HttpPost]
         public async Task<IActionResult> CriarCliente(Cliente cliente)
         {
-            cliente.Validar();
-
             if (ModelState.IsValid)
             {
                 _contexto.Add(cliente);

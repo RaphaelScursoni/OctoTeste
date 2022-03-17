@@ -41,15 +41,17 @@ namespace OctoProva.Migrations
 
                     b.Property<string>("Documento")
                         .IsRequired()
-                        .HasMaxLength(14);
+                        .HasMaxLength(18);
+
+                    b.Property<string>("Email");
 
                     b.Property<string>("Endereco")
                         .IsRequired()
-                        .HasMaxLength(100);
+                        .HasMaxLength(50);
 
                     b.Property<string>("Nome")
                         .IsRequired()
-                        .HasMaxLength(100);
+                        .HasMaxLength(70);
 
                     b.Property<string>("Numero")
                         .IsRequired()
@@ -57,10 +59,10 @@ namespace OctoProva.Migrations
 
                     b.Property<string>("Telefone1")
                         .IsRequired()
-                        .HasMaxLength(12);
+                        .HasMaxLength(15);
 
                     b.Property<string>("Telefone2")
-                        .HasMaxLength(12);
+                        .HasMaxLength(15);
 
                     b.Property<string>("TipoCliente")
                         .IsRequired()

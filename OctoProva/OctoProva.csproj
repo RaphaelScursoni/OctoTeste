@@ -5,6 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20220317210231_AttModelValidation.cs" />
+    <Compile Remove="Migrations\20220317210231_AttModelValidation.Designer.cs" />
+    <Compile Remove="Migrations\20220317210305_AttModelValidation.cs" />
+    <Compile Remove="Migrations\20220317210305_AttModelValidation.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="InputMask" Version="5.0.7" />
+    <PackageReference Include="jQuery.InputMask" Version="5.0.7" />
     <PackageReference Include="Microsoft.AspNetCore" Version="2.1.7" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.1.3" />

@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "eV7yOAvQu73YcZ45jIApq42jIpGkqlT6LSLckGd9aFOA/N5y8syt92EbzkNm+yvoF8jtEZ7o+DRmEoFZKTG1/Q==",
+  "dgSpecHash": "aTCDTBnEcmmvCuzSbTyMdxWGXDvaZ/hPaiO50KBH6mJydRvVBMCJo8L9jfzbr2ahU63SGYfkW/HMrJn2RhAYgg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Raphael Scursoni\\source\\repos\\OctoProva\\OctoProva\\OctoProva.csproj",
+  "projectFilePath": "C:\\Users\\Raphael Scursoni\\Desktop\\OctoProva\\OctoTeste\\OctoProva\\OctoProva.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Raphael Scursoni\\.nuget\\packages\\inputmask\\5.0.7\\inputmask.5.0.7.nupkg.sha512",
+    "C:\\Users\\Raphael Scursoni\\.nuget\\packages\\jquery.inputmask\\5.0.7\\jquery.inputmask.5.0.7.nupkg.sha512",
     "C:\\Users\\Raphael Scursoni\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\Raphael Scursoni\\.nuget\\packages\\microsoft.aspnetcore\\2.1.7\\microsoft.aspnetcore.2.1.7.nupkg.sha512",
     "C:\\Users\\Raphael Scursoni\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.1.1\\microsoft.aspnetcore.antiforgery.2.1.1.nupkg.sha512",
