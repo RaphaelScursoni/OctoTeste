@@ -9,6 +9,12 @@
     <Compile Remove="Migrations\20220317210231_AttModelValidation.Designer.cs" />
     <Compile Remove="Migrations\20220317210305_AttModelValidation.cs" />
     <Compile Remove="Migrations\20220317210305_AttModelValidation.Designer.cs" />
+    <Compile Remove="Migrations\20220318125911_AttModels.cs" />
+    <Compile Remove="Migrations\20220318125911_AttModels.Designer.cs" />
+    <Compile Remove="Migrations\20220319132910_AttModelView.cs" />
+    <Compile Remove="Migrations\20220319132910_AttModelView.Designer.cs" />
+    <Compile Remove="Migrations\20220319142853_AttModelView.cs" />
+    <Compile Remove="Migrations\20220319142853_AttModelView.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>

@@ -28,8 +28,24 @@ body {
     margin: 15px;
 }
 
-.btn{
-    margin-top:20px;
+.btn {
+    margin-top: 20px;
+}
+
+#CPF{
+    display:none;
+}
+
+#CNPJ{
+    display: none;
+}
+
+#CPFLabel{
+    display: none;
+}
+
+#CNPJLabel{
+    display: none;
 }
 
 /* Hide/rearrange for smaller screens */
@@ -39,3 +55,4 @@ body {
         display: none;
     }
 }
+

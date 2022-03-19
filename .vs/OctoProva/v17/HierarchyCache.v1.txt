@@ -3,9 +3,9 @@ i:{00000000-0000-0000-0000-000000000000}:OctoProva.sln
 ++OctoProva
 i:{00000000-0000-0000-0000-000000000000}:OctoProva
 ++Connected Services 
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:>321
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:>399
 ++Dependências
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:>320
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:>398
 ++Properties
 i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\properties\
 ++wwwroot
@@ -13,8 +13,19 @@ i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octop
 ++css
 i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\css\
 i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\bootstrap\dist\css\
+++site.css
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\css\site.css
+++site.min.css
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\css\site.min.css
+++Teste.css
 ++images
 i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\images\
+++banner1.svg
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\images\banner1.svg
+++banner2.svg
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\images\banner2.svg
+++banner3.svg
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\images\banner3.svg
 ++js
 i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\js\
 i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\bootstrap\dist\js\
@@ -25,9 +36,6 @@ i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octop
 i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\bootstrap\dist\
 i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\jquery\dist\
 i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\jquery-validation\dist\
-++jquery.mask.js
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\js\jquery-mask-plugin-master\dist\jquery.mask.js
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\js\jquery-mask-plugin-master\src\jquery.mask.js
 ++src
 i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\js\jquery-mask-plugin-master\src\
 ++test
@@ -99,10 +107,37 @@ i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octop
 i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\js\jquery-mask-plugin-master\readme.md
 ++site.js
 i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\js\site.js
-++vue.min.js
-++vue-the-mask.js
 ++lib
 i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\
+++bootstrap
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\bootstrap\
+++bootstrap.css
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap.css.map
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap.min.css
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++bootstrap.min.css.map
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap-theme.css
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css
+++bootstrap-theme.css.map
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css.map
+++bootstrap-theme.min.css
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css
+++fonts
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\bootstrap\dist\fonts\
+++.bower.json
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\bootstrap\.bower.json
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\jquery\.bower.json
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\jquery-validation\.bower.json
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\jquery-validation-unobtrusive\.bower.json
+++jquery
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\jquery\
+++jquery-validation
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\jquery-validation-unobtrusive\
 ++favicon.ico
 i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\favicon.ico
 ++Controllers
@@ -113,9 +148,6 @@ i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octop
 i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\controllers\homecontroller.cs
 ++Migrations
 i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\migrations\
-++20220317130500_ResetDB.cs
-++ContextoModelSnapshot.cs
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\migrations\contextomodelsnapshot.cs
 ++Models
 i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\models\
 ++Cliente.cs
@@ -159,30 +191,21 @@ i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octop
 i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\views\_viewstart.cshtml
 ++appsettings.json
 i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\appsettings.json
-++appsettings.Development.json
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\appsettings.development.json
 ++Program.cs
 i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\program.cs
 ++Startup.cs
 i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\startup.cs
 ++Nenhuma dependência de serviço descoberta
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:>322
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:>400
 ++Analisadores
 i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:analisadores
 ++Pacotes
 i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:pacotes
 ++launchSettings.json
 i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\properties\launchsettings.json
-++site.css
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\css\site.css
-++banner1.svg
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\images\banner1.svg
-++banner2.svg
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\images\banner2.svg
-++banner3.svg
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\images\banner3.svg
-++jquery.mask.min.js
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\js\jquery-mask-plugin-master\dist\jquery.mask.min.js
+++jquery.mask.js
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\js\jquery-mask-plugin-master\dist\jquery.mask.js
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\js\jquery-mask-plugin-master\src\jquery.mask.js
 ++data.js
 i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\js\jquery-mask-plugin-master\test\zepto\data.js
 ++event.js
@@ -193,82 +216,8 @@ i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octop
 i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\js\jquery-mask-plugin-master\package-lock.json
 ++site.min.js
 i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\js\site.min.js
-++bootstrap
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\bootstrap\
-++jquery
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\jquery\
-++jquery-validation
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\jquery-validation\
-++jquery-validation-unobtrusive
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\jquery-validation-unobtrusive\
-++20220317130500_ResetDB.Designer.cs
-++Microsoft.AspNetCore.Mvc.Analyzers
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\.nuget\packages\microsoft.aspnetcore.mvc.analyzers\2.1.1\analyzers\dotnet\cs\microsoft.aspnetcore.mvc.analyzers.dll
-++Microsoft.CodeAnalysis.Analyzers
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
-++Microsoft.CodeAnalysis.CSharp.Analyzers
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
-++Microsoft.EntityFrameworkCore.Analyzers
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\.nuget\packages\microsoft.entityframeworkcore.analyzers\2.1.14\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
-++inputmask (5.0.7)
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:>520
-++jQuery.InputMask (5.0.7)
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:>519
-++Microsoft.AspNetCore (2.1.7)
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:>334
-++Microsoft.AspNetCore.App (2.1.1)
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:>326
-++Microsoft.AspNetCore.Mvc (2.1.3)
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:>330
-++Microsoft.AspNetCore.Razor.Design (2.1.2)
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:>324
-++Microsoft.AspNetCore.StaticFiles (2.1.1)
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:>328
-++Microsoft.EntityFrameworkCore.Design (2.1.14)
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:>327
-++Microsoft.EntityFrameworkCore.SqlServer (2.1.14)
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:>325
-++Microsoft.EntityFrameworkCore.Tools (2.1.14)
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:>331
-++Microsoft.Extensions.Logging.Debug (2.1.1)
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:>337
-++Microsoft.NETCore.App (2.1.0)
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:>333
-++Microsoft.VisualStudio.Web.BrowserLink (2.1.1)
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:>332
-++Microsoft.VisualStudio.Web.CodeGeneration.Design (2.1.10)
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:>336
-++Pomelo.EntityFrameworkCore.MySql (2.1.1)
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:>335
-++vue (2.6.11)
-++site.min.css
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\css\site.min.css
-++.bower.json
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\bootstrap\.bower.json
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\jquery\.bower.json
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\jquery-validation\.bower.json
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\jquery-validation-unobtrusive\.bower.json
-++LICENSE.txt
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\jquery\license.txt
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\jquery-validation-unobtrusive\license.txt
-++LICENSE.md
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\jquery-validation\license.md
-++jquery.validate.unobtrusive.js
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
-++fonts
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\bootstrap\dist\fonts\
-++jquery.js
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\jquery\dist\jquery.js
-++additional-methods.js
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\jquery-validation\dist\additional-methods.js
-++jquery.validate.js
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\jquery-validation\dist\jquery.validate.js
-++jquery.validate.unobtrusive.min.js
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
-++bootstrap.css
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\bootstrap\dist\css\bootstrap.css
-++bootstrap-theme.css
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css
+++bootstrap-theme.min.css.map
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css.map
 ++glyphicons-halflings-regular.eot
 i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.eot
 ++glyphicons-halflings-regular.svg
@@ -283,33 +232,79 @@ i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octop
 i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\bootstrap\dist\js\bootstrap.js
 ++npm.js
 i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\bootstrap\dist\js\npm.js
+++LICENSE.txt
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\jquery\license.txt
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++20220318023801_AttModelValidation.cs
+++ContextoModelSnapshot.cs
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\migrations\contextomodelsnapshot.cs
+++appsettings.Development.json
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\appsettings.development.json
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\.nuget\packages\microsoft.aspnetcore.mvc.analyzers\2.1.1\analyzers\dotnet\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.CodeAnalysis.Analyzers
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\.nuget\packages\microsoft.entityframeworkcore.analyzers\2.1.14\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++inputmask (5.0.7)
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:>409
+++jQuery.InputMask (5.0.7)
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:>403
+++Microsoft.AspNetCore (2.1.7)
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:>413
+++Microsoft.AspNetCore.App (2.1.1)
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:>405
+++Microsoft.AspNetCore.Mvc (2.1.3)
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:>408
+++Microsoft.AspNetCore.Razor.Design (2.1.2)
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:>402
+++Microsoft.AspNetCore.StaticFiles (2.1.1)
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:>407
+++Microsoft.EntityFrameworkCore.Design (2.1.14)
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:>406
+++Microsoft.EntityFrameworkCore.SqlServer (2.1.14)
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:>404
+++Microsoft.EntityFrameworkCore.Tools (2.1.14)
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:>410
+++Microsoft.Extensions.Logging.Debug (2.1.1)
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:>416
+++Microsoft.NETCore.App (2.1.0)
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:>412
+++Microsoft.VisualStudio.Web.BrowserLink (2.1.1)
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:>411
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (2.1.10)
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:>415
+++Pomelo.EntityFrameworkCore.MySql (2.1.1)
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:>414
+++jquery.mask.min.js
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\js\jquery-mask-plugin-master\dist\jquery.mask.min.js
+++bootstrap.min.js
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++jquery.js
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\jquery\dist\jquery.js
+++additional-methods.js
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++jquery.validate.js
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++jquery.validate.unobtrusive.min.js
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++20220318023801_AttModelValidation.Designer.cs
 ++jquery.min.js
 i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\jquery\dist\jquery.min.js
 ++additional-methods.min.js
 i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
 ++jquery.validate.min.js
 i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
-++bootstrap.css.map
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
-++bootstrap.min.css
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
-++bootstrap-theme.css.map
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css.map
-++bootstrap-theme.min.css
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css
-++bootstrap.min.js
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
 ++jquery.min.map
 i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\jquery\dist\jquery.min.map
-++bootstrap.min.css.map
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
-++bootstrap-theme.min.css.map
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css.map
-++20220317210231_AttModelValidation.cs
-++20220317210231_AttModelValidation.Designer.cs
-++20220317210305_AttModelValidation.cs
-++20220317210305_AttModelValidation.Designer.cs
-++20220317223918_AttModelValidation.cs
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\migrations\20220317223918_attmodelvalidation.cs
-++20220317223918_AttModelValidation.Designer.cs
-i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\migrations\20220317223918_attmodelvalidation.designer.cs
+++bootstrapspacelab.css
+++20220318125911_AttModels.cs
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\migrations\20220318125911_attmodels.cs
+++20220318125911_AttModels.Designer.cs
+i:{8e52fc7c-6a74-4e01-afef-d7189d4a763c}:c:\users\raphael scursoni\desktop\octoprova\octoteste\octoprova\migrations\20220318125911_attmodels.designer.cs

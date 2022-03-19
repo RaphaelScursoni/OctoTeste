@@ -10,7 +10,7 @@ namespace OctoProva.Controllers
         private readonly Contexto _contexto;
 
         public ClientesController(Contexto contexto)
-        {   
+        {
             _contexto = contexto;
         }
 
@@ -29,14 +29,34 @@ namespace OctoProva.Controllers
         [HttpPost]
         public async Task<IActionResult> CriarCliente(Cliente cliente)
         {
-            if (ModelState.IsValid)
+            if (cliente.CPF == null)
             {
+                cliente.Documento = cliente.CNPJ;
+                cliente = new Cliente(cliente.Nome, cliente.Documento, cliente.CNPJ, cliente.TipoCliente, cliente.TipoTelefone1, cliente.Telefone1, cliente.TipoTelefone2, cliente.Telefone2, cliente.Email, cliente.TipoEndereco, cliente.Endereco, cliente.CEP, cliente.Numero, cliente.Complemento, cliente.Bairro, cliente.Cidade, cliente.UF);
+                _contexto.Add(cliente);
+                if (cliente.Documento == null)
+                {
+                    return View(cliente);
+                }
                 _contexto.Add(cliente);
                 await _contexto.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-
+            else if(cliente.CNPJ == null)
+            {
+                cliente.Documento = cliente.CPF;
+                cliente = new Cliente(cliente.Nome, cliente.Documento, cliente.CPF, cliente.TipoCliente, cliente.TipoTelefone1, cliente.Telefone1, cliente.TipoTelefone2, cliente.Telefone2, cliente.Email, cliente.TipoEndereco, cliente.Endereco, cliente.CEP, cliente.Numero, cliente.Complemento, cliente.Bairro, cliente.Cidade, cliente.UF);
+                _contexto.Add(cliente);
+                if (cliente.Documento == null)
+                {
+                    return View(cliente);
+                }
+                _contexto.Add(cliente);
+                await _contexto.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
             else return View(cliente);
+
         }
 
         [HttpGet]

@@ -9,8 +9,8 @@ using OctoProva.Models;
 namespace OctoProva.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20220317223918_AttModelValidation")]
-    partial class AttModelValidation
+    [Migration("20220319210016_AttModelView")]
+    partial class AttModelView
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -33,6 +33,12 @@ namespace OctoProva.Migrations
                     b.Property<string>("CEP")
                         .IsRequired()
                         .HasMaxLength(9);
+
+                    b.Property<string>("CNPJ")
+                        .HasMaxLength(18);
+
+                    b.Property<string>("CPF")
+                        .HasMaxLength(14);
 
                     b.Property<string>("Cidade")
                         .IsRequired()
@@ -67,7 +73,6 @@ namespace OctoProva.Migrations
                         .HasMaxLength(15);
 
                     b.Property<string>("TipoCliente")
-                        .IsRequired()
                         .HasMaxLength(30);
 
                     b.Property<string>("TipoEndereco")

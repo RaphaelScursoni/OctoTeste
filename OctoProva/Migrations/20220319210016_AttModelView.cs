@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace OctoProva.Migrations
 {
-    public partial class AttModelValidation : Migration
+    public partial class AttModelView : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -14,8 +14,10 @@ namespace OctoProva.Migrations
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     Nome = table.Column<string>(maxLength: 70, nullable: false),
-                    TipoCliente = table.Column<string>(maxLength: 30, nullable: false),
                     Documento = table.Column<string>(maxLength: 18, nullable: false),
+                    CPF = table.Column<string>(maxLength: 14, nullable: true),
+                    CNPJ = table.Column<string>(maxLength: 18, nullable: true),
+                    TipoCliente = table.Column<string>(maxLength: 30, nullable: true),
                     TipoTelefone1 = table.Column<string>(maxLength: 12, nullable: false),
                     Telefone1 = table.Column<string>(maxLength: 15, nullable: false),
                     TipoTelefone2 = table.Column<string>(maxLength: 25, nullable: true),

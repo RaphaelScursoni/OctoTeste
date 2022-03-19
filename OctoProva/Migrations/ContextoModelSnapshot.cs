@@ -32,6 +32,12 @@ namespace OctoProva.Migrations
                         .IsRequired()
                         .HasMaxLength(9);
 
+                    b.Property<string>("CNPJ")
+                        .HasMaxLength(18);
+
+                    b.Property<string>("CPF")
+                        .HasMaxLength(14);
+
                     b.Property<string>("Cidade")
                         .IsRequired()
                         .HasMaxLength(50);
@@ -65,7 +71,6 @@ namespace OctoProva.Migrations
                         .HasMaxLength(15);
 
                     b.Property<string>("TipoCliente")
-                        .IsRequired()
                         .HasMaxLength(30);
 
                     b.Property<string>("TipoEndereco")
