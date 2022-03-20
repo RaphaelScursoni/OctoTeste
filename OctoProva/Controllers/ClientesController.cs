@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using OctoProva.Models;
 using OctoProva.Data;
 using System.Threading.Tasks;
+using X.PagedList;
+using System.Linq;
 
 namespace OctoProva.Controllers
 {
@@ -15,9 +17,11 @@ namespace OctoProva.Controllers
             _contexto = contexto;
         }
 
-        public async Task<IActionResult> Index()
+        public ViewResult Index(int? pagina)
         {
-            return View(await _contexto.Clientes.ToListAsync());
+            int tamanhoPagina = 10;
+            int numeroPagina = pagina ?? 1;
+            return View(_contexto.Clientes.OrderBy(p => p.Nome).ToPagedList(numeroPagina, tamanhoPagina));
         }
 
 

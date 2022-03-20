@@ -1,4 +1,7 @@
-﻿@model IEnumerable<OctoProva.Models.Cliente>
+﻿@model X.PagedList.IPagedList<OctoProva.Models.Cliente>
+@using X.PagedList.Mvc.Core;
+@using X.PagedList.Mvc.Common;
+@using X.PagedList;
 
 @{
     ViewData["Title"] = "Index";
@@ -13,13 +16,13 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Nome)
+                Nome
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Documento)
+                Documento
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Email)
+                Email
             </th>
             <th>
                 Tipo_1°Telefone
@@ -40,22 +43,22 @@
                 Endereço
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.CEP)
+                CEP
             </th>
             <th>
                 Número
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Complemento)
+                Complemento
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Bairro)
+                Bairro
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Cidade)
+                Cidade
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.UF)
+                UF
             </th>
             <th></th>
         </tr>
@@ -116,3 +119,7 @@
 }
     </tbody>
 </table>
+
+Página @Model.PageNumber de @Model.PageCount
+
+@Html.PagedListPager(Model, page => Url.Action("Index", new {pagina = page}))

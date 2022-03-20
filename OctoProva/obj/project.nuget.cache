@@ -1,12 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "aTCDTBnEcmmvCuzSbTyMdxWGXDvaZ/hPaiO50KBH6mJydRvVBMCJo8L9jfzbr2ahU63SGYfkW/HMrJn2RhAYgg==",
+  "dgSpecHash": "NEJhjVOcHDz2+Kx21Ls5xp8uifTsWIFBaejJcsQATxye6vr26H/tBSqEIlZ+f8FklKubyVWSkCz9J4Yt8wQHFA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Raphael Scursoni\\Desktop\\OctoProva\\OctoTeste\\OctoProva\\OctoProva.csproj",
+  "projectFilePath": "C:\\Users\\Raphael Scursoni\\Desktop\\Restaurando OctoProva\\OctoTeste\\OctoProva\\OctoProva.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Raphael Scursoni\\.nuget\\packages\\forloop.htmlhelpers\\1.2.0\\forloop.htmlhelpers.1.2.0.nupkg.sha512",
     "C:\\Users\\Raphael Scursoni\\.nuget\\packages\\inputmask\\5.0.7\\inputmask.5.0.7.nupkg.sha512",
     "C:\\Users\\Raphael Scursoni\\.nuget\\packages\\jquery.inputmask\\5.0.7\\jquery.inputmask.5.0.7.nupkg.sha512",
+    "C:\\Users\\Raphael Scursoni\\.nuget\\packages\\microsoft.aspnet.mvc\\5.2.7\\microsoft.aspnet.mvc.5.2.7.nupkg.sha512",
+    "C:\\Users\\Raphael Scursoni\\.nuget\\packages\\microsoft.aspnet.razor\\3.2.7\\microsoft.aspnet.razor.3.2.7.nupkg.sha512",
     "C:\\Users\\Raphael Scursoni\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
+    "C:\\Users\\Raphael Scursoni\\.nuget\\packages\\microsoft.aspnet.webpages\\3.2.7\\microsoft.aspnet.webpages.3.2.7.nupkg.sha512",
     "C:\\Users\\Raphael Scursoni\\.nuget\\packages\\microsoft.aspnetcore\\2.1.7\\microsoft.aspnetcore.2.1.7.nupkg.sha512",
     "C:\\Users\\Raphael Scursoni\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.1.1\\microsoft.aspnetcore.antiforgery.2.1.1.nupkg.sha512",
     "C:\\Users\\Raphael Scursoni\\.nuget\\packages\\microsoft.aspnetcore.app\\2.1.1\\microsoft.aspnetcore.app.2.1.1.nupkg.sha512",
@@ -181,6 +185,7 @@
     "C:\\Users\\Raphael Scursoni\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.templating\\2.1.10\\microsoft.visualstudio.web.codegeneration.templating.2.1.10.nupkg.sha512",
     "C:\\Users\\Raphael Scursoni\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.utils\\2.1.10\\microsoft.visualstudio.web.codegeneration.utils.2.1.10.nupkg.sha512",
     "C:\\Users\\Raphael Scursoni\\.nuget\\packages\\microsoft.visualstudio.web.codegenerators.mvc\\2.1.10\\microsoft.visualstudio.web.codegenerators.mvc.2.1.10.nupkg.sha512",
+    "C:\\Users\\Raphael Scursoni\\.nuget\\packages\\microsoft.web.infrastructure\\1.0.0\\microsoft.web.infrastructure.1.0.0.nupkg.sha512",
     "C:\\Users\\Raphael Scursoni\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\Raphael Scursoni\\.nuget\\packages\\mysqlconnector\\0.42.1\\mysqlconnector.0.42.1.nupkg.sha512",
     "C:\\Users\\Raphael Scursoni\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
@@ -247,7 +252,7 @@
     "C:\\Users\\Raphael Scursoni\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
     "C:\\Users\\Raphael Scursoni\\.nuget\\packages\\system.linq.expressions\\4.3.0\\system.linq.expressions.4.3.0.nupkg.sha512",
     "C:\\Users\\Raphael Scursoni\\.nuget\\packages\\system.linq.parallel\\4.3.0\\system.linq.parallel.4.3.0.nupkg.sha512",
-    "C:\\Users\\Raphael Scursoni\\.nuget\\packages\\system.linq.queryable\\4.0.1\\system.linq.queryable.4.0.1.nupkg.sha512",
+    "C:\\Users\\Raphael Scursoni\\.nuget\\packages\\system.linq.queryable\\4.3.0\\system.linq.queryable.4.3.0.nupkg.sha512",
     "C:\\Users\\Raphael Scursoni\\.nuget\\packages\\system.memory\\4.5.2\\system.memory.4.5.2.nupkg.sha512",
     "C:\\Users\\Raphael Scursoni\\.nuget\\packages\\system.net.http\\4.3.0\\system.net.http.4.3.0.nupkg.sha512",
     "C:\\Users\\Raphael Scursoni\\.nuget\\packages\\system.net.primitives\\4.3.0\\system.net.primitives.4.3.0.nupkg.sha512",
@@ -304,7 +309,60 @@
     "C:\\Users\\Raphael Scursoni\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Raphael Scursoni\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
     "C:\\Users\\Raphael Scursoni\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
-    "C:\\Users\\Raphael Scursoni\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\Raphael Scursoni\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\Raphael Scursoni\\.nuget\\packages\\x.pagedlist\\7.2.0\\x.pagedlist.7.2.0.nupkg.sha512",
+    "C:\\Users\\Raphael Scursoni\\.nuget\\packages\\x.pagedlist.mvc.core\\7.2.0\\x.pagedlist.mvc.core.7.2.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Forloop.HtmlHelpers 1.2.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v2.1'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Forloop.HtmlHelpers",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Microsoft.AspNet.Mvc 5.2.7' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v2.1'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Microsoft.AspNet.Mvc",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Microsoft.AspNet.Razor 3.2.7' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v2.1'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Microsoft.AspNet.Razor",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Microsoft.AspNet.WebPages 3.2.7' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v2.1'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Microsoft.AspNet.WebPages",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Microsoft.Web.Infrastructure 1.0.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v2.1'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Microsoft.Web.Infrastructure",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    }
+  ]
 }
