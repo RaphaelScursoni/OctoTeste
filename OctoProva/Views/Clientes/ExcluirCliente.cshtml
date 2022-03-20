@@ -8,7 +8,7 @@
  
 <h3>Tem certeza que deseja Deletar o Cliente?</h3>
 <div>
-    <h4>Cliente</h4>
+
     <hr />
     <dl class="dl-horizontal">
         <dt>
@@ -24,43 +24,43 @@
             @Html.DisplayFor(model => model.Documento)
         </dd>
         <dt>
-            @Html.DisplayNameFor(model => model.Email)
+            E-Mail
         </dt>
         <dd>
             @Html.DisplayFor(model => model.Email)
         </dd>
         <dt>
-            @Html.DisplayNameFor(model => model.TipoTelefone1)
+            Tipo do Telefone 1
         </dt>
         <dd>
             @Html.DisplayFor(model => model.TipoTelefone1)
         </dd>
         <dt>
-            @Html.DisplayNameFor(model => model.Telefone1)
+            Telefone 1
         </dt>
         <dd>
             @Html.DisplayFor(model => model.Telefone1)
         </dd>
         <dt>
-            @Html.DisplayNameFor(model => model.TipoTelefone2)
+            Tipo do Telefone 2
         </dt>
         <dd>
             @Html.DisplayFor(model => model.TipoTelefone2)
         </dd>
         <dt>
-            @Html.DisplayNameFor(model => model.Telefone2)
+            Telefone 2
         </dt>
         <dd>
             @Html.DisplayFor(model => model.Telefone2)
         </dd>
         <dt>
-            @Html.DisplayNameFor(model => model.TipoEndereco)
+            Tipo do Endereço
         </dt>
         <dd>
             @Html.DisplayFor(model => model.TipoEndereco)
         </dd>
         <dt>
-            @Html.DisplayNameFor(model => model.Endereco)
+            Endereço
         </dt>
         <dd>
             @Html.DisplayFor(model => model.Endereco)
@@ -72,7 +72,7 @@
             @Html.DisplayFor(model => model.CEP)
         </dd>
         <dt>
-            @Html.DisplayNameFor(model => model.Numero)
+            Número
         </dt>
         <dd>
             @Html.DisplayFor(model => model.Numero)
@@ -105,7 +105,8 @@
     
     <form asp-action="ExcluirCliente">
         <input type="hidden" asp-for="Id" />
-        <input type="submit" value="Delete" class="btn btn-default" /> |
-        <a asp-action="Index">Voltar para a lista</a>
+        <input type="submit" value="Excluir" class="btn btn-default" />
+        <br />
+        <div style="margin-top:20px"><a asp-action="Index">Voltar para a lista</a></div>
     </form>
 </div>

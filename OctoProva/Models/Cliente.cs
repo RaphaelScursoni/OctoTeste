@@ -10,12 +10,12 @@ namespace OctoProva.Models
         [Required(ErrorMessage="Nome é obrigatório")]
         [StringLength(70, ErrorMessage = "O Nome não pode ter mais que 70 caracteres")]
         public string Nome { get; set; }
-        [Required(ErrorMessage = "Certifique-se de não enviar o formulário com o Documento vazio.")]
+        [Required(ErrorMessage = "Certifique-se de não enviar o formulário com o Documento vazio. ")]
         [StringLength(18)]
         public string Documento { get; set; }
-        [StringLength(14, MinimumLength = 14, ErrorMessage = "O CPF precisa conter no mínimo 11 dígitos")]
+        [StringLength(14, MinimumLength = 14, ErrorMessage = "O CPF precisa conter no mínimo 11 dígitos. ")]
         public string CPF { get; set; }
-        [StringLength(18, MinimumLength =18,ErrorMessage ="O CNPJ precisa conter no mínimo 14 dígitos")]
+        [StringLength(18, MinimumLength =18,ErrorMessage ="O CNPJ precisa conter no mínimo 14 dígitos. ")]
         public string CNPJ { get; set; }
         [StringLength(30)]
         public string TipoCliente { get; set; }
@@ -58,11 +58,10 @@ namespace OctoProva.Models
         {
         }
 
-        public Cliente(string nome, string documento, string tipoCliente, string tipoTelefone1, string telefone1, string tipoTelefone2, string telefone2, string email, string tipoEndereco, string endereco, string cEP, string numero, string complemento, string bairro, string cidade, string uF)
+        public Cliente(string nome, string documento, string tipoTelefone1, string telefone1, string tipoTelefone2, string telefone2, string email, string tipoEndereco, string endereco, string cEP, string numero, string complemento, string bairro, string cidade, string uF)
         {
             Nome = nome;
             Documento = documento;
-            TipoCliente = tipoCliente;
             TipoTelefone1 = tipoTelefone1;
             Telefone1 = telefone1;
             TipoTelefone2 = tipoTelefone2;
@@ -77,13 +76,13 @@ namespace OctoProva.Models
             Cidade = cidade;
             UF = uF;
         }
-        public Cliente(string nome, string documento, string cNPJ,string tipoCliente, string tipoTelefone1, string telefone1, string tipoTelefone2, string telefone2, string email, string tipoEndereco, string endereco, string cEP, string numero, string complemento, string bairro, string cidade, string uF) 
-            :this(nome, documento, tipoCliente, tipoTelefone1,telefone1, tipoTelefone2,telefone2,email,tipoEndereco,endereco,cEP,numero,complemento,bairro,cidade,uF)
+        public Cliente(string nome, string documento, string cNPJ, string tipoTelefone1, string telefone1, string tipoTelefone2, string telefone2, string email, string tipoEndereco, string endereco, string cEP, string numero, string complemento, string bairro, string cidade, string uF) 
+            :this(nome, documento, tipoTelefone1,telefone1, tipoTelefone2,telefone2,email,tipoEndereco,endereco,cEP,numero,complemento,bairro,cidade,uF)
         {
             CNPJ = cNPJ;
         }
-        public Cliente(string nome, string documento, string cPF, string cNPJ, string tipoCliente, string tipoTelefone1, string telefone1, string tipoTelefone2, string telefone2, string email, string tipoEndereco, string endereco, string cEP, string numero, string complemento, string bairro, string cidade, string uF)
-            : this(nome, documento, tipoCliente, tipoTelefone1, telefone1, tipoTelefone2, telefone2, email, tipoEndereco, endereco, cEP, numero, complemento, bairro, cidade, uF)
+        public Cliente(string nome, string documento, string cPF, string cNPJ, string tipoTelefone1, string telefone1, string tipoTelefone2, string telefone2, string email, string tipoEndereco, string endereco, string cEP, string numero, string complemento, string bairro, string cidade, string uF)
+            : this(nome, documento, tipoTelefone1, telefone1, tipoTelefone2, telefone2, email, tipoEndereco, endereco, cEP, numero, complemento, bairro, cidade, uF)
         {
             CPF = cPF;
         }

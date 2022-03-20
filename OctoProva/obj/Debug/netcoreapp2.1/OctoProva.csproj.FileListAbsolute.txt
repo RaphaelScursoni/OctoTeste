@@ -87,15 +87,12 @@ C:\Users\Raphael Scursoni\Desktop\Restaurando OctoProva\OctoTeste\OctoProva\obj\
 C:\Users\Raphael Scursoni\Desktop\Restaurando OctoProva\OctoTeste\OctoProva\obj\Debug\netcoreapp2.1\OctoProva.TagHelpers.input.cache
 C:\Users\Raphael Scursoni\Desktop\Restaurando OctoProva\OctoTeste\OctoProva\obj\Debug\netcoreapp2.1\OctoProva.TagHelpers.output.cache
 C:\Users\Raphael Scursoni\Desktop\Restaurando OctoProva\OctoTeste\OctoProva\obj\Debug\netcoreapp2.1\OctoProva.RazorCoreGenerate.cache
-C:\Users\Raphael Scursoni\Desktop\Restaurando OctoProva\OctoTeste\OctoProva\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\AtualizarCliente.cshtml.g.cs
 C:\Users\Raphael Scursoni\Desktop\Restaurando OctoProva\OctoTeste\OctoProva\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\CriarCliente.cshtml.g.cs
 C:\Users\Raphael Scursoni\Desktop\Restaurando OctoProva\OctoTeste\OctoProva\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\ExcluirCliente.cshtml.g.cs
 C:\Users\Raphael Scursoni\Desktop\Restaurando OctoProva\OctoTeste\OctoProva\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Index.cshtml.g.cs
 C:\Users\Raphael Scursoni\Desktop\Restaurando OctoProva\OctoTeste\OctoProva\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
 C:\Users\Raphael Scursoni\Desktop\Restaurando OctoProva\OctoTeste\OctoProva\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
-C:\Users\Raphael Scursoni\Desktop\Restaurando OctoProva\OctoTeste\OctoProva\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Raphael Scursoni\Desktop\Restaurando OctoProva\OctoTeste\OctoProva\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
-C:\Users\Raphael Scursoni\Desktop\Restaurando OctoProva\OctoTeste\OctoProva\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
 C:\Users\Raphael Scursoni\Desktop\Restaurando OctoProva\OctoTeste\OctoProva\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Raphael Scursoni\Desktop\Restaurando OctoProva\OctoTeste\OctoProva\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\Raphael Scursoni\Desktop\Restaurando OctoProva\OctoTeste\OctoProva\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
@@ -116,3 +113,5 @@ C:\Users\Raphael Scursoni\Desktop\Restaurando OctoProva\OctoTeste\OctoProva\bin\
 C:\Users\Raphael Scursoni\Desktop\Restaurando OctoProva\OctoTeste\OctoProva\obj\Debug\netcoreapp2.1\OctoProva.Views.pdb
 C:\Users\Raphael Scursoni\Desktop\Restaurando OctoProva\OctoTeste\OctoProva\obj\Debug\netcoreapp2.1\OctoProva.genruntimeconfig.cache
 C:\Users\Raphael Scursoni\Desktop\Restaurando OctoProva\OctoTeste\OctoProva\obj\Debug\netcoreapp2.1\OctoProva.csproj.CopyComplete
+C:\Users\Raphael Scursoni\Desktop\Restaurando OctoProva\OctoTeste\OctoProva\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\Raphael Scursoni\Desktop\Restaurando OctoProva\OctoTeste\OctoProva\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\AtualizarCliente.cshtml.g.cs

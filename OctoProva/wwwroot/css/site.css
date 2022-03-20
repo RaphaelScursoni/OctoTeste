@@ -32,6 +32,7 @@ body {
     margin-top: 20px;
 }
 
+/* Usando display para diferenciar o CPF de CNPJ na View */
 #CPF{
     display:none;
 }

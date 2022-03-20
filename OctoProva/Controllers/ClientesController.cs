@@ -17,6 +17,7 @@ namespace OctoProva.Controllers
             _contexto = contexto;
         }
 
+        //Retornando a Lista de Clientes com Paginação
         public ViewResult Index(int? pagina)
         {
             int tamanhoPagina = 10;
@@ -24,20 +25,21 @@ namespace OctoProva.Controllers
             return View(_contexto.Clientes.OrderBy(p => p.Nome).ToPagedList(numeroPagina, tamanhoPagina));
         }
 
-
+        //Retornando View Criar Cliente
         [HttpGet]
         public IActionResult CriarCliente()
         {
             return View();
         }
 
+        //Enviando o novo Cliente através de validações CPF e CNPJ
         [HttpPost]
         public async Task<IActionResult> CriarCliente(Cliente cliente)
         {
             if (cliente.CPF == null)
             {
                 cliente.Documento = cliente.CNPJ;
-                cliente = new Cliente(cliente.Nome, cliente.Documento, cliente.CNPJ, cliente.TipoCliente, cliente.TipoTelefone1, cliente.Telefone1, cliente.TipoTelefone2, cliente.Telefone2, cliente.Email, cliente.TipoEndereco, cliente.Endereco, cliente.CEP, cliente.Numero, cliente.Complemento, cliente.Bairro, cliente.Cidade, cliente.UF);
+                cliente = new Cliente(cliente.Nome, cliente.Documento, cliente.CNPJ, cliente.TipoTelefone1, cliente.Telefone1, cliente.TipoTelefone2, cliente.Telefone2, cliente.Email, cliente.TipoEndereco, cliente.Endereco, cliente.CEP, cliente.Numero, cliente.Complemento, cliente.Bairro, cliente.Cidade, cliente.UF);
                 _contexto.Add(cliente);
                 if (cliente.Documento == null)
                 {
@@ -50,7 +52,7 @@ namespace OctoProva.Controllers
             else if(cliente.CNPJ == null)
             {
                 cliente.Documento = cliente.CPF;
-                cliente = new Cliente(cliente.Nome, cliente.Documento, cliente.CPF, cliente.TipoCliente, cliente.TipoTelefone1, cliente.Telefone1, cliente.TipoTelefone2, cliente.Telefone2, cliente.Email, cliente.TipoEndereco, cliente.Endereco, cliente.CEP, cliente.Numero, cliente.Complemento, cliente.Bairro, cliente.Cidade, cliente.UF);
+                cliente = new Cliente(cliente.Nome, cliente.Documento, cliente.CPF, cliente.TipoTelefone1, cliente.Telefone1, cliente.TipoTelefone2, cliente.Telefone2, cliente.Email, cliente.TipoEndereco, cliente.Endereco, cliente.CEP, cliente.Numero, cliente.Complemento, cliente.Bairro, cliente.Cidade, cliente.UF);
                 _contexto.Add(cliente);
                 if (cliente.Documento == null)
                 {
@@ -64,6 +66,7 @@ namespace OctoProva.Controllers
 
         }
 
+        //Retornando View AtualizarCliente
         [HttpGet]
         public IActionResult AtualizarCliente(int? id)
         {
@@ -76,6 +79,7 @@ namespace OctoProva.Controllers
             else return NotFound();
         }
 
+        //Enviando as alterações do Cliete
         [HttpPost]
         public async Task<IActionResult> AtualizarCliente(int? id, Cliente cliente)
         {

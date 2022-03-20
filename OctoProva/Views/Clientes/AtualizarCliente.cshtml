@@ -25,22 +25,10 @@
                     <span asp-validation-for="Email" class="text-danger"></span>
                 </div>
             </div>
-            <div>
-                    <div style="margin-left:20px">Pessoa Física</div>
-                    <input asp-for="TipoCliente" type="radio" id="radio1" value="Pessoa Física" name="doc" style="margin-left:40px"/> <br />
-                    <div style="margin-left:20px">Pessoa Jurídica</div>
-                    <input asp-for="TipoCliente" type="radio" id="radio2" name="doc" value="Pessoa Jurídica" style="margin-left:40px"/> <br />
-                    <span asp-validation-for="TipoCliente" class="text-danger"></span>
-            </div>
             <div class="form-row">
                 <div class="col-md-12">
-                    <label asp-for="CPF" class="control-label"id="CPFLabel">CPF: <span>*</span></label>
-                    <input asp-for="CPF" class="form-control" id="CPF"/>
-                    <span asp-validation-for="CPF" class="text-danger"></span>
-                    <label asp-for="CNPJ" class="control-label" id="CNPJLabel">CNPJ: <span>*</span></label>
-                    <input asp-for="CNPJ" class="form-control" id="CNPJ" />
-                    <span asp-validation-for="CNPJ" class="text-danger"></span>
-                    <span asp-validation-for="Documento" class="text-danger"></span>
+                    <label asp-for="Documento" class="control-label"id="CPFLabel">CPF: <span>*</span></label>
+                    <input asp-for="Documento" class="form-control" id="CPF"/>
                 </div>
             </div>
             <div class="form-row">
