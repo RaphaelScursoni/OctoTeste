@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using OctoProva.Models;
 
-namespace OctoProva.Models
+namespace OctoProva.Data
 {
     public class Contexto : DbContext
     {

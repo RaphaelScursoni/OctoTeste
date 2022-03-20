@@ -4,13 +4,13 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using OctoProva.Models;
+using OctoProva.Data;
 
 namespace OctoProva.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20220319210016_AttModelView")]
-    partial class AttModelView
+    [Migration("20220320001501_AttViewModel")]
+    partial class AttViewModel
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

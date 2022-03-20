@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using OctoProva.Models;
+using OctoProva.Data;
 using System.Threading.Tasks;
 
 namespace OctoProva.Controllers

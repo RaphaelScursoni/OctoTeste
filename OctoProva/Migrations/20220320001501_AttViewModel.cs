@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace OctoProva.Migrations
 {
-    public partial class AttModelView : Migration
+    public partial class AttViewModel : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
