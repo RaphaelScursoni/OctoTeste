@@ -9,19 +9,15 @@ using System.Threading.Tasks;
 namespace OctoProva.Controllers
 {
     public class HomeController : Controller
-    {
-        public IActionResult Index()
-        {
-            return View();
-        }
-
+    {   
+        //Retornando View "Sobre"
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
 
             return View();
         }
-
+        //Retornando View "Contato"
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";
@@ -29,11 +25,7 @@ namespace OctoProva.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
+        //Retornando View com possível Erro
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

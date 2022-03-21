@@ -1,5 +1,6 @@
 ﻿@model OctoProva.Models.Cliente
 
+<!--Chamada para a View-->
 @{
     ViewData["Title"] = "AtualizarCliente";
 }
@@ -7,9 +8,17 @@
 <h2>Atualizar Cliente</h2>
 
 <h4>Cliente</h4>
+
+@section Scripts {
+    @{
+    await Html.RenderPartialAsync("_ValidationScriptsPartial");
+}
+}
+
 <hr />
 <div class="row">
     <div class="col-md-12">
+        <!--Ação para a página-->
         <form asp-action="AtualizarCliente">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
@@ -159,9 +168,3 @@
 <div>
     <a asp-action="Index">Voltar para a lista</a>
 </div>
-
-@section Scripts {
-    @{
-    await Html.RenderPartialAsync("_ValidationScriptsPartial");
-}
-}

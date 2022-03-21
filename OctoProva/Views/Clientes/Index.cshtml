@@ -1,8 +1,10 @@
-﻿@model X.PagedList.IPagedList<OctoProva.Models.Cliente>
+﻿<!--Importando Bibliotecas para paginação-->
+@model X.PagedList.IPagedList<OctoProva.Models.Cliente>
 @using X.PagedList.Mvc.Core;
 @using X.PagedList.Mvc.Common;
 @using X.PagedList;
 
+<!--Chamada para a View-->
 @{
     ViewData["Title"] = "Index";
 }
@@ -12,6 +14,7 @@
 <p>
     <a asp-action="CriarCliente">Criar um novo Cliente</a>
 </p>
+    <!--Mostrando o título das colunas-->
 <table class="table">
     <thead>
         <tr>
@@ -64,13 +67,14 @@
         </tr>
     </thead>
     <tbody>
+<!--Retornando os valores das colunas-->
 @foreach (var item in Model) {
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.Nome)
             </td>
            <td>
-                @Html.DisplayFor(modelItem => item.Documento)
+                @Html.DisplayFor(modelItem => item.Documento) 
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Email)
@@ -120,6 +124,7 @@
     </tbody>
 </table>
 
+<!--Páginas para a lista-->
 Página @Model.PageNumber de @Model.PageCount
 
 @Html.PagedListPager(Model, page => Url.Action("Index", new {pagina = page}))

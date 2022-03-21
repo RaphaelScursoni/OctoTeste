@@ -1,5 +1,6 @@
 ﻿@model OctoProva.Models.Cliente
 
+<!--Chamada para a View-->
 @{
     ViewData["Title"] = "CriarCliente";
 }
@@ -17,6 +18,7 @@
 <hr />
 <div class="row">
     <div class="col-md-12">
+        <!--Ação para a página-->
         <form asp-action="CriarCliente">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-row">
@@ -32,6 +34,7 @@
                 </div>
             </div>
             <div>
+                <!--Radio Button para implantação do Documento-->
                     <div style="margin-left:20px">Pessoa Física</div>
                     <input asp-for="TipoCliente" type="radio" id="radio1" value="Pessoa Física" name="doc" style="margin-left:40px"/> <br />
                     <div style="margin-left:20px">Pessoa Jurídica</div>
@@ -40,6 +43,7 @@
             </div>
             <div class="form-row">
                 <div class="col-md-12">
+                    <!--Criando o atributo CNPJ ou CPF para cada caso do Radio Button-->
                     <label asp-for="CPF" class="control-label"id="CPFLabel">CPF: <span>*</span></label>
                     <input asp-for="CPF" class="form-control" id="CPF"/>
                     <label asp-for="CNPJ" class="control-label" id="CNPJLabel">CNPJ: <span>*</span></label>
@@ -173,6 +177,7 @@
         </form>
     </div>
 </div>
+
 <div>
     <a asp-action="Index">Voltar para a Lista</a>
 </div>

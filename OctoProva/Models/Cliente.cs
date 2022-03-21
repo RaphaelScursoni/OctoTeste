@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 
 namespace OctoProva.Models
-{
+{   //Instanciando cada atributo da Model para o objeto "Cliente" 
     public class Cliente
     {
         [Key]
@@ -76,16 +76,19 @@ namespace OctoProva.Models
             Cidade = cidade;
             UF = uF;
         }
+
+        //Construtor para cliente CNPJ
         public Cliente(string nome, string documento, string cNPJ, string tipoTelefone1, string telefone1, string tipoTelefone2, string telefone2, string email, string tipoEndereco, string endereco, string cEP, string numero, string complemento, string bairro, string cidade, string uF) 
             :this(nome, documento, tipoTelefone1,telefone1, tipoTelefone2,telefone2,email,tipoEndereco,endereco,cEP,numero,complemento,bairro,cidade,uF)
         {
             CNPJ = cNPJ;
         }
+
+        //Construtor para cliente CPF
         public Cliente(string nome, string documento, string cPF, string cNPJ, string tipoTelefone1, string telefone1, string tipoTelefone2, string telefone2, string email, string tipoEndereco, string endereco, string cEP, string numero, string complemento, string bairro, string cidade, string uF)
             : this(nome, documento, tipoTelefone1, telefone1, tipoTelefone2, telefone2, email, tipoEndereco, endereco, cEP, numero, complemento, bairro, cidade, uF)
         {
             CPF = cPF;
         }
-
     }
 }

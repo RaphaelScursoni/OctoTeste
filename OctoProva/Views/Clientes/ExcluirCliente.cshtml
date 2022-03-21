@@ -1,5 +1,6 @@
 ﻿@model OctoProva.Models.Cliente
 
+<!--Chamada para a View-->
 @{
     ViewData["Title"] = "ExcluirCliente";
 }
@@ -10,6 +11,8 @@
 <div>
 
     <hr />
+    <!--Mostrando o título de cada atributo-->
+    <!--Seguido do conteúdo do objeto-->
     <dl class="dl-horizontal">
         <dt>
             @Html.DisplayNameFor(model => model.Nome)
@@ -102,11 +105,11 @@
             @Html.DisplayFor(model => model.UF)
         </dd>
     </dl>
-    
     <form asp-action="ExcluirCliente">
         <input type="hidden" asp-for="Id" />
         <input type="submit" value="Excluir" class="btn btn-default" />
         <br />
+        <!--Retornar sem ação-->
         <div style="margin-top:20px"><a asp-action="Index">Voltar para a lista</a></div>
     </form>
 </div>

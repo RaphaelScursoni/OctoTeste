@@ -79,7 +79,7 @@ namespace OctoProva.Controllers
             else return NotFound();
         }
 
-        //Enviando as alterações do Cliete
+        //Enviando as alterações do Cliente
         [HttpPost]
         public async Task<IActionResult> AtualizarCliente(int? id, Cliente cliente)
         {
@@ -96,6 +96,7 @@ namespace OctoProva.Controllers
             else return NotFound();
         }
 
+        //Retornando a View ExcluirCliente
         [HttpGet]
         public IActionResult ExcluirCliente(int? id)
         {
@@ -108,6 +109,7 @@ namespace OctoProva.Controllers
             else return NotFound();
         }
 
+        //Excluindo o cliente com ID solicitado
         [HttpPost]
         public async Task<IActionResult> ExcluirCliente(int? id, Cliente cliente)
         {
