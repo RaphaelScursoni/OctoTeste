@@ -114,4 +114,5 @@ C:\Users\Raphael Scursoni\Desktop\Restaurando OctoProva\OctoTeste\OctoProva\obj\
 C:\Users\Raphael Scursoni\Desktop\Restaurando OctoProva\OctoTeste\OctoProva\obj\Debug\netcoreapp2.1\OctoProva.genruntimeconfig.cache
 C:\Users\Raphael Scursoni\Desktop\Restaurando OctoProva\OctoTeste\OctoProva\obj\Debug\netcoreapp2.1\OctoProva.csproj.CopyComplete
 C:\Users\Raphael Scursoni\Desktop\Restaurando OctoProva\OctoTeste\OctoProva\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
-C:\Users\Raphael Scursoni\Desktop\Restaurando OctoProva\OctoTeste\OctoProva\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\AtualizarCliente.cshtml.g.cs
+C:\Users\Raphael Scursoni\Desktop\Restaurando OctoProva\OctoTeste\OctoProva\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\EditarClientePessoaFisica.cshtml.g.cs
+C:\Users\Raphael Scursoni\Desktop\Restaurando OctoProva\OctoTeste\OctoProva\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\EditarClientePessoaJuridica.cshtml.g.cs

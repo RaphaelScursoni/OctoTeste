@@ -29,12 +29,13 @@ body {
 }
 
 .btn {
-    margin-top: 20px;
+    margin-top: 15px;
+    margin-left:20px;
 }
 
-/* Usando display para diferenciar o CPF de CNPJ na View */
-#CPF{
-    display:none;
+/* Usando display para diferenciar o CPF de CNPJ nas Views */
+#CPF {
+    display: none;
 }
 
 #CNPJ{

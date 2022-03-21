@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using OctoProva.Models;
 using OctoProva.Data;
 using System.Threading.Tasks;
@@ -49,7 +48,7 @@ namespace OctoProva.Controllers
                 await _contexto.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            else if(cliente.CNPJ == null)
+            else if (cliente.CNPJ == null)
             {
                 cliente.Documento = cliente.CPF;
                 cliente = new Cliente(cliente.Nome, cliente.Documento, cliente.CPF, cliente.TipoTelefone1, cliente.Telefone1, cliente.TipoTelefone2, cliente.Telefone2, cliente.Email, cliente.TipoEndereco, cliente.Endereco, cliente.CEP, cliente.Numero, cliente.Complemento, cliente.Bairro, cliente.Cidade, cliente.UF);
@@ -66,9 +65,9 @@ namespace OctoProva.Controllers
 
         }
 
-        //Retornando View AtualizarCliente
+        //Retornando View EditarClientePessoaJuridica
         [HttpGet]
-        public IActionResult AtualizarCliente(int? id)
+        public IActionResult EditarClientePessoaJuridica(int? id)
         {
             if (id != null)
             {
@@ -79,19 +78,59 @@ namespace OctoProva.Controllers
             else return NotFound();
         }
 
-        //Enviando as alterações do Cliente
-        [HttpPost]
-        public async Task<IActionResult> AtualizarCliente(int? id, Cliente cliente)
+        //Retornando View EditarClientePessoaFisica
+        [HttpGet]
+        public IActionResult EditarClientePessoaFisica(int? id)
         {
             if (id != null)
             {
-                if (ModelState.IsValid)
+                Cliente cliente = _contexto.Clientes.Find(id);
+                return View(cliente);
+            }
+
+            else return NotFound();
+        }
+
+        //Enviando as alterações do ClientePessoaJuridica
+        [HttpPost]
+        public async Task<IActionResult> EditarClientePessoaJuridica(int? id, Cliente cliente)
+        {
+            if (id != null)
+            {
+                if (cliente.Documento.Length >= 14 && cliente.Documento.Length < 18)
+                {
+                    return View(cliente);
+                }
+                else if (cliente.Documento.Length == 18)
                 {
                     _contexto.Update(cliente);
                     await _contexto.SaveChangesAsync();
                     return RedirectToAction(nameof(Index));
                 }
-                else return View(cliente);
+                else
+                {
+                    return View(cliente);
+                }
+            }
+            else return NotFound();
+        }
+
+        //Enviando as alterações do ClientePessoaFisica
+        [HttpPost]
+        public async Task<IActionResult> EditarClientePessoaFisica(int? id, Cliente cliente)
+        {
+            if (id != null)
+            {
+                if (cliente.Documento.Length < 14)
+                {
+                    return View(cliente);
+                }
+                else
+                {
+                    _contexto.Update(cliente);
+                    await _contexto.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
+                }
             }
             else return NotFound();
         }

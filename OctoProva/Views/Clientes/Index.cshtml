@@ -116,7 +116,8 @@
                 @Html.DisplayFor(modelItem => item.UF)
             </td>
             <td>
-                    <a asp-action="AtualizarCliente" asp-route-id="@item.Id">Editar</a>
+                    @if(item.Documento.Length > 16) { <a asp-action="EditarClientePessoaJuridica" asp-route-id="@item.Id">Editar</a>}
+                    @if(item.Documento.Length < 16) { <a asp-action="EditarClientePessoaFisica" asp-route-id="@item.Id">Editar</a>}
                     <a asp-action="ExcluirCliente" asp-route-id="@item.Id">Deletar</a>
             </td>
         </tr>

@@ -65,10 +65,10 @@ namespace OctoProva.Migrations
 
                     b.Property<string>("Telefone1")
                         .IsRequired()
-                        .HasMaxLength(15);
+                        .HasMaxLength(13);
 
                     b.Property<string>("Telefone2")
-                        .HasMaxLength(15);
+                        .HasMaxLength(13);
 
                     b.Property<string>("TipoCliente")
                         .HasMaxLength(30);

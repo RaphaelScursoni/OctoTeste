@@ -9,7 +9,7 @@ using OctoProva.Data;
 namespace OctoProva.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20220320001501_AttViewModel")]
+    [Migration("20220321195628_AttViewModel")]
     partial class AttViewModel
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -67,10 +67,10 @@ namespace OctoProva.Migrations
 
                     b.Property<string>("Telefone1")
                         .IsRequired()
-                        .HasMaxLength(15);
+                        .HasMaxLength(13);
 
                     b.Property<string>("Telefone2")
-                        .HasMaxLength(15);
+                        .HasMaxLength(13);
 
                     b.Property<string>("TipoCliente")
                         .HasMaxLength(30);

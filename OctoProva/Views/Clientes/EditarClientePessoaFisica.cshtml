@@ -2,12 +2,12 @@
 
 <!--Chamada para a View-->
 @{
-    ViewData["Title"] = "CriarCliente";
+    ViewData["Title"] = "EditarClientePessoaFisica";
 }
 
-<h2>Criar Cliente</h2>
+<h2>Editar Cliente</h2>
 
-<h4>Adicionar novo cliente a lista</h4>
+<h4>Cliente</h4>
 
 @section Scripts {
     @{
@@ -19,9 +19,10 @@
 <div class="row">
     <div class="col-md-12">
         <!--Ação para a página-->
-        <form asp-action="CriarCliente">
+        <form asp-action="EditarClientePessoaFisica">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-row">
+            <input type="hidden" asp-for="Id" />
+           <div class="form-row">
                 <div class="col-md-7">
                     <label asp-for="Nome" class="control-label">Nome: <span>*</span></label>
                     <input asp-for="Nome" class="form-control" placeholder="Digite seu Nome"/>
@@ -34,22 +35,14 @@
                 </div>
             </div>
             <div>
-                <!--Radio Button para implantação do Documento-->
-                    <div style="margin-left:20px">Pessoa Física: </div>
-                    <input asp-for="TipoCliente" type="radio" id="radio1" value="Pessoa Física" name="doc" style="margin-left:40px"/> <br />
-                    <div style="margin-left:20px">Pessoa Jurídica: </div>
-                    <input asp-for="TipoCliente" type="radio" id="radio2" name="doc" value="Pessoa Jurídica" style="margin-left:40px"/> <br />
+                <!--Button para Edição do Documento-->
+                    <input asp-for="TipoCliente" type="button" id="btn2" class="btn" value="Editar CPF" style="margin-left:15px"/> <br />
                     <span asp-validation-for="TipoCliente" class="text-danger"></span>
             </div>
             <div class="form-row">
                 <div class="col-md-12">
-                    <!--Criando o atributo CNPJ ou CPF para cada caso do Radio Button-->
-                    <label asp-for="CPF" class="control-label"id="CPFLabel">CPF: <span>*</span></label>
-                    <input asp-for="CPF" class="form-control" id="CPF"/>
-                    <label asp-for="CNPJ" class="control-label" id="CNPJLabel">CNPJ: <span>*</span></label>
-                    <input asp-for="CNPJ" class="form-control" id="CNPJ" />
-                    <span asp-validation-for="CPF" class="text-danger"></span>
-                    <span asp-validation-for="CNPJ" class="text-danger"></span>
+                    <label asp-for="Documento" class="control-label" id="CPFLabel">CPF: <span>*</span></label>
+                    <input asp-for="Documento" class="form-control" id="CPF"/>
                     <span asp-validation-for="Documento" class="text-danger"></span>
                 </div>
             </div>
@@ -172,12 +165,12 @@
                 </div>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-default" />
+                <input type="submit" value="Save" class="btn btn-default" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Voltar para a Lista</a>
+    <a asp-action="Index">Voltar para a lista</a>
 </div>

@@ -1,5 +1,4 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace OctoProva.Models
 {   //Instanciando cada atributo da Model para o objeto "Cliente" 
@@ -10,8 +9,8 @@ namespace OctoProva.Models
         [Required(ErrorMessage="Nome é obrigatório")]
         [StringLength(70, ErrorMessage = "O Nome não pode ter mais que 70 caracteres")]
         public string Nome { get; set; }
-        [Required(ErrorMessage = "Certifique-se de não enviar o formulário com o Documento vazio. ")]
-        [StringLength(18)]
+        [Required(ErrorMessage = "Não envie o formulário com o Documento vazio. ")]
+        [StringLength(18,MinimumLength =14, ErrorMessage = "Documento Inválido. ")]
         public string Documento { get; set; }
         [StringLength(14, MinimumLength = 14, ErrorMessage = "O CPF precisa conter no mínimo 11 dígitos. ")]
         public string CPF { get; set; }
@@ -23,11 +22,11 @@ namespace OctoProva.Models
         [StringLength(12)]
         public string TipoTelefone1 { get; set; }
         [Required(ErrorMessage = "Ao menos o primeiro telefone é obrigatório")]
-        [StringLength(15, MinimumLength =11, ErrorMessage ="Preencha o Telefone 1 corretamente")]
+        [StringLength(13, MinimumLength =10, ErrorMessage ="Preencha o Telefone 1 corretamente")]
         public string Telefone1 { get; set; }
         [StringLength(25)]
         public string TipoTelefone2 { get; set; }
-        [StringLength(15, MinimumLength = 11, ErrorMessage = "Preencha o Telefone 2 corretamente")]
+        [StringLength(13, MinimumLength = 10, ErrorMessage = "Preencha o Telefone 2 corretamente")]
         public string Telefone2 { get; set; }
         [RegularExpression(@"^[a-zA-Z]+(([\'\,\.\- ][a-zA-Z ])?[a-zA-Z]*)*\s+<(\w[-._\w]*\w@\w[-._\w]*\w\.\w{2,3})>$|^(\w[-._\w]*\w@\w[-._\w]*\w\.\w{2,3})$", ErrorMessage = "Formato do E-mail Inválido.")]
         public string Email { get; set; }
